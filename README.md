@@ -29,24 +29,11 @@ A *Banking Management System* is software that automates and manages core bank o
 * Scheduled (standing) instructions and recurring payments
 * Transaction reversal, dispute handling, and audit trail
 
-### 🏦 Loan & Credit Management
-
-* Loan product definitions (personal, mortgage, auto, business)
-* Loan application, approval workflow, EMI schedule generation
-* Interest calculation methods (fixed/variable), prepayment and penalties
-* Collateral and guarantor management
-
 ### 🛂 Cards & ATM Management
 
 * Issue and manage debit/credit cards
 * Card activation, blocking, PIN reset
 * ATM cash reconciliation and incident logging
-
-### 🏢 Branch, ATM & Channel Management
-
-* Maintain branch and ATM inventory and status
-* Assign services by branch (e.g., loan types available)
-* Support multi-channel operations: branch, online banking, mobile app
 
 ### 👩‍💼 Employee & Role Management
 
@@ -73,10 +60,6 @@ A *Banking Management System* is software that automates and manages core bank o
 * NPA (non-performing assets) and loan portfolio reports
 * Custom report builder and export (CSV / PDF / Excel)
 
-### 🔔 Notifications & Communication
-
-* SMS / Email / In-app notifications for transactions, OTPs, alerts
-* Bulk communication for product offers and compliance notices
 
 ### 🔗 Integration & APIs
 
@@ -89,16 +72,6 @@ A *Banking Management System* is software that automates and manages core bank o
 * Online account opening (KYC collection) — subject to regulatory checks
 * Balance check, fund transfer, e-statement download
 * Secure document upload and support ticketing
-
----
-
-## 🖥 System Architecture (high-level)
-
-* Presentation layer: Web UI / Mobile app / API gateway
-* Application layer: Business services (accounts, loans, transactions)
-* Data layer: Relational DB for transactional data + NoSQL for logs/cache
-* Security layer: Auth service, encryption, IAM (RBAC)
-* Integration layer: Payment gateway adapters, core banking interfaces
 
 ---
 
@@ -137,14 +110,3 @@ A *Banking Management System* is software that automates and manages core bank o
 * *Backup & Recovery*: point-in-time recovery for transactional DB
 
 ---
-
-## 📁 Deliverables & Next Steps (if you want me to generate)
-
-* Detailed ER diagram and normalized schema
-* SQL scripts to create the core tables and sample data
-* Java-based project skeleton (Maven/Gradle) for core banking modules
-* UI mockups for teller dashboard and customer portal
-
----
-
-If you want, I can now generate any of the above deliverables (ER diagram, SQL DDL, Java project skeleton, or UI mockups). What should I build first?
